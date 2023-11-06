@@ -1,0 +1,54 @@
+body {
+    background-color: #336bb5;
+    background-image: url(35165738-snowy-birch-forest-at-winter-and-warm-sun-light.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 969px;
+}
+
+h1 {
+    color: white;
+    font-family: "comic sans ms";
+    background-color: #336bb5;
+    border-radius: 25px;
+    width: 345px;
+    transform: translate(200px, 80px);
+}
+
+ul {
+    list-style: none;
+    background-color: #d68342;
+    width: 250px;
+    border-radius: 25px;
+    transform: scale(1.5) translate(150px, 120px);
+}
+
+li {
+    padding: right;
+    display: block;
+    background-color: #d68342;
+    transition: all .2s ease-in;
+    border-radius: 25px;
+}
+
+li:hover {
+    display: block;
+    border-radius: 15px;
+    background-color: #f7984f;
+    animation-name: example;
+    animation-timing-function: ease-in;
+    animation-duration: 0.3s;
+    transform: scale(1.1);
+}
+
+@keyframes example {
+    from  {background-color: #d68342;}
+    to  {background-color: #f7984f ;}
+}
+
+a {
+    color: white;
+    font-family: "comic sans ms";
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+}
